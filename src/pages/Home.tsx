@@ -16,13 +16,13 @@ const Home = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         />
         <motion.div 
-          className="absolute right-20 top-1/3 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-gold opacity-30"
+          className="absolute right-30 top-1/3 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-gold opacity-30"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         />
         
-        <div className="container mx-auto px-4 h-full">
+        <div className="container mx-auto px-10 h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
             {/* Left content */}
             <div className="z-10">
@@ -48,7 +48,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Découvrez une approche unique du coaching sportif, alliant expertise japonaise et méthodes modernes pour des résultats durables.
+                Découvrez une approche unique du coaching sportif, alliant expertise et méthodes modernes pour des résultats durables.
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
