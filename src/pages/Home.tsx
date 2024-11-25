@@ -22,10 +22,10 @@ const Home = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         />
         
-        <div className="container mx-auto px-10 h-full">
+        <div className="container mx-auto h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full items-center">
             {/* Left content */}
-            <div className="z-10">
+            <div className="z-10 px-20">
               <motion.p 
                 className="text-gold uppercase tracking-wider mb-4"
                 initial={{ opacity: 0, y: 20 }}
