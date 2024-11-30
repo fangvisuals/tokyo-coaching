@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorer les fichiers d'environnement
+.env
+.env.local
+
+# Ignorer les fichiers Firebase locaux
+firebase-debug.log
+firebase-debug.*.log
