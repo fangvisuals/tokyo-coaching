@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Menu, X, Dumbbell } from 'lucide-react';
 
 const Navbar = () => {
+  console.log("API Key:", process.env.REACT_APP_FIREBASE_API_KEY);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
