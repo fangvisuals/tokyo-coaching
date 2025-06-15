@@ -2,7 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import imageHeader from '../assets/image_header.webp';
+import medaille from '../assets/icons/medaille.png';
+import halteres from '../assets/icons/halteres.png';
+import couronne from '../assets/icons/couronne.png';
 import PageTransition from '../components/PageTransition';
+
 
 const Home = () => {
   return (
@@ -75,10 +80,10 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
                 <img
-                  src="dist/assets/image_header.webp"
+                  src={imageHeader}
                   alt="Coach sportif en action"
                   loading="lazy"
-                  className="w-600 h-600px object-cover rounded-2xl"
+                  className="w-full h-full object-contain rounded-2xl"
                 />
               </motion.div>
             </div>
@@ -97,7 +102,7 @@ const Home = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="bg-gold/10 p-4 rounded-full">
                   <img
-                    src="dist/assets/icons/couronne.png"
+                    src={couronne}
                     alt="Couronne"
                     className="w-8 h-8"
                   />
@@ -108,7 +113,7 @@ const Home = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="bg-gold/10 p-4 rounded-full">
                   <img
-                    src="dist/assets/icons/medaille.png"
+                    src={medaille}
                     alt="Médaille"
                     className="w-8 h-8"
                   />
@@ -122,7 +127,7 @@ const Home = () => {
               <div className="flex flex-col items-center space-y-4">
                 <div className="bg-gold/10 p-4 rounded-full">
                   <img
-                    src="dist/assets/icons/halteres.png"
+                    src={halteres}
                     alt="Haltère"
                     className="w-8 h-8"
                   />

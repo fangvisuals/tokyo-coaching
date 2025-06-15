@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Brain, Heart, Target, Sparkles, GraduationCap } from 'lucide-react';
+import aboutPhoto from '../assets/clelia.webp';
 import Container from '../components/Container';
 import PageTransition from '../components/PageTransition';
 
@@ -37,7 +38,7 @@ const About = () => {
               </div>
               <div className="relative">
                 <img
-                  src="dist/assets/clelia.webp"
+                  src={aboutPhoto}
                   alt="Portrait de coach"
                   className="rounded-2xl shadow-xl"
                 />
